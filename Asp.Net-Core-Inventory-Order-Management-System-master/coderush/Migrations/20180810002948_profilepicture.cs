@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace coderush.Migrations
+namespace IMS.Migrations
 {
     public partial class profilepicture : Migration
     {

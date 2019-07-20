@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using coderush.Data;
-using coderush.Models;
-using coderush.Models.AccountViewModels;
-using coderush.Models.SyncfusionViewModels;
-using coderush.Services;
+using IMS.Data;
+using IMS.Models;
+using IMS.Models.AccountViewModels;
+using IMS.Models.SyncfusionViewModels;
+using IMS.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 
-namespace coderush.Controllers.Api
+namespace IMS.Controllers.Api
 {
     [Authorize]
     [Produces("application/json")]

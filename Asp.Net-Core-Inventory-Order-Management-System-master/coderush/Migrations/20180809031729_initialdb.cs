@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
 
-namespace coderush.Migrations
+namespace IMS.Migrations
 {
     public partial class initialdb : Migration
     {

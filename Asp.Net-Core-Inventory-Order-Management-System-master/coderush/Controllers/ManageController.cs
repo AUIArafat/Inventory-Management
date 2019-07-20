@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using coderush.Models;
-using coderush.Models.ManageViewModels;
-using coderush.Services;
+using IMS.Models;
+using IMS.Models.ManageViewModels;
+using IMS.Services;
 
-namespace coderush.Controllers
+namespace IMS.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]
@@ -522,7 +522,7 @@ namespace coderush.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("coderush"),
+                _urlEncoder.Encode("IMS"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

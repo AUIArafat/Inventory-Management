@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using coderush.Data;
-using coderush.Models;
-using coderush.Services;
-using coderush.Models.SyncfusionViewModels;
+using IMS.Data;
+using IMS.Models;
+using IMS.Services;
+using IMS.Models.SyncfusionViewModels;
 using Microsoft.AspNetCore.Authorization;
 
-namespace coderush.Controllers.Api
+namespace IMS.Controllers.Api
 {
     [Authorize]
     [Produces("application/json")]

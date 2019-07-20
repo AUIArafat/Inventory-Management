@@ -8,12 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using coderush.Data;
-using coderush.Models;
-using coderush.Services;
+using IMS.Data;
+using IMS.Models;
+using IMS.Services;
 using Newtonsoft.Json.Serialization;
 
-namespace coderush
+namespace IMS
 {
     public class Startup
     {

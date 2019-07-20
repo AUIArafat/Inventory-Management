@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using coderush.Models;
-using coderush.Models.AccountViewModels;
-using coderush.Services;
+using IMS.Models;
+using IMS.Models.AccountViewModels;
+using IMS.Services;
 
-namespace coderush.Controllers
+namespace IMS.Controllers
 {
     [Authorize]
     [Route("[controller]/[action]")]

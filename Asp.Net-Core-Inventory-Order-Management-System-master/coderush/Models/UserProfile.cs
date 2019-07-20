@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace coderush.Models
+namespace IMS.Models
 {
     public class UserProfile
     {

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using coderush.Data;
-using coderush.Models;
+using IMS.Data;
+using IMS.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace coderush.Controllers
+namespace IMS.Controllers
 {
     [Authorize(Roles = Pages.MainMenu.SalesOrder.RoleName)]
     public class SalesOrderController : Controller

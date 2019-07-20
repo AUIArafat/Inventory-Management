@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using coderush.Models;
+using IMS.Models;
 
-namespace coderush.Controllers
+namespace IMS.Controllers
 {
     public class HomeController : Controller
     {
